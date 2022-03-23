@@ -1,0 +1,21 @@
+Transforming Data for Linear Regression
+
+ try p rasied to the (-1,-0.5, ln=0, 0.5, 1, 1.5, 2)
+
+ Look at the histogram of the residuals 
+
+Right (positive skew):
+square root transformation
+log transformation
+reciprocal transformation  
+
+Left (negative) skew:
+square transformation
+exponential transformation
+
+ If linearity is the problem: transform the predictor
+ If linearity and or equality of variance are the problem: transform the response or both
+
+ Careful about negative numbers in your data with transformations
+
+ Remember that your model is now in transformed values.
